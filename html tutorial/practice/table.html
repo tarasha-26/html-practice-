@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <table border="1">
+        <caption>My achievement</caption>
+        <tr>
+            <th>Language</th>
+            <th>Competency</th>
+            <th>Years</th>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>5/10</td>
+            <td> 10 years</td>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>8/10</td>
+            <td>5 years</td>
+        </tr>
+        <tr>
+            <td colspan="3 ">No other lang</td>
+
+        </tr>
+    </table>
+    <br>
+    <form action="http://127.0.0.1:5500/first.html/web.html " method="post">
+         Date: <input type="date"><br>
+         File: <input type="file"><br>
+         color: <input type="color"><br>
+         price range: <input type="range"><br>
+         poke me: <input type="button" value="poked"><br>
+<!--label pr click krne se bhi button select hojaygea aur vo id input krane se hoga-->
+         
+         <label for="male">Male:</label>
+         <input type="radio" id="male" name="gender" value="male"><br>
+         <label for="female">Female:</label>
+         <input type="checkbox" id="female" name="gender" value="female"><br>
+         <label for="other">Other:</label>
+         <input type="radio" id="other"name="gender" value="other"> <br>
+
+        <label for="email">Username: </label>
+        <input type="text" id="email" placeholder="email" required="true">
+
+        <label for="user_password">Password: </label>
+        <input id="user_password" type="password"><br>
+        <input type="submit">
+    </form>
+    
+</body>
+</html>
